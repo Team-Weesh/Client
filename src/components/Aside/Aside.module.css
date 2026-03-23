@@ -1,0 +1,162 @@
+.container {
+  width: 25%;
+  background: #ffffff;
+  padding: 24px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1), 0 1px 2px rgba(0,0,0,0.06);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.leftPosition {}
+.rightPosition {
+  overflow-y: auto;
+}
+
+.header {
+  margin-bottom: 24px;
+}
+
+.title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #111827;
+}
+
+.sectionTitle {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 16px;
+}
+
+.dateText {
+  font-size: 13px;
+  color: #6b7280;
+  margin-top: 8px;
+}
+
+.loginPrompt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  margin-top: 32px;
+  padding: 24px 16px;
+  text-align: center;
+}
+
+.loginMessage {
+  font-size: 16px;
+  color: #9f9f9f;
+  margin-top: 18px;
+}
+
+.loginText {
+  color: #10b981;
+  text-decoration: underline;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.buttonGroup {
+  margin-top: auto;
+}
+
+.timeSlotList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 16px;
+}
+
+.timeSlot {
+  width: 100%;
+  text-align: left;
+  padding: 12px 16px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  background: #ffffff;
+  cursor: pointer;
+}
+
+.selectedTimeSlot {
+  border-color: #10b981;
+  background: #ecfdf5;
+}
+
+.bookingButton {
+  width: 100%;
+  background: #10b981;
+  color: white;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+}
+
+.bookingButton:hover {
+  background: #00b377;
+}
+
+.bookingButtonDisabled {
+  width: 100%;
+  background: #d1d5db;
+  color: #9ca3af;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  cursor: not-allowed;
+}
+
+/* ===== Modal ===== */
+
+.overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  background: white;
+  border-radius: 12px;
+  padding: 24px;
+  width: 90%;
+  max-width: 500px;
+}
+
+.modalHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.modalTitle {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.closeButton {
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+}
+
+.buttonGroupRow {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 16px;
+}
