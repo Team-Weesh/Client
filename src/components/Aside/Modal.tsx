@@ -39,7 +39,7 @@ const Modal: React.FC<Props> = ({
       },
       {
         onSuccess: () => {
-          Toastify({ content: "예약 완료", type: "info" });
+          showToast({ content: "예약 완료", type: "info" });
           onClose();
           setContent("");
         },
