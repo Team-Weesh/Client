@@ -82,6 +82,6 @@ Key features and requirements are managed through the **Product Backlog**.
 ### Admin
 
 - Counseling schedule management
-- Dashboard
+- Dashboard.
 
 ---
